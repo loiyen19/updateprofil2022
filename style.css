@@ -1,0 +1,140 @@
+body{
+   letter-spacing: 1.5px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(0deg, #303030, #303030), linear-gradient(0deg, #303030, #303030), linear-gradient(0deg, #303030, #303030), #303030;
+}
+:root{
+  
+    --c-brand: #23b100;
+    --c-body: #141414;
+    --transition: all 0.5 ease;
+
+ }
+ .navbar{
+   background: linear-gradient(0deg, #303030, #303030), linear-gradient(0deg, #303030, #303030), linear-gradient(0deg, #303030, #303030), #303030;
+ }
+ .co{
+    color: var(--c-brand);
+    
+ }
+ .container1{
+    box-sizing: border-box;
+    width: 119px;
+    height: 132px;
+    border: 5px solid #0BA824;
+    filter: blur(2px);
+    transform: rotate(-41.42deg);
+
+
+ }
+ .container2{
+    box-sizing: border-box;
+    width: 119px;
+    height: 132px;
+    border: 5px solid #0BA824;
+    filter: blur(2px);
+   
+ }
+ .bag2{
+   color: var(--c-brand);
+ }
+ .int{
+   color: var(--c-brand);
+ }
+ .btn-brand{
+   background-color: var(--c-brand);
+   color: rgb(255, 255, 255);
+}
+.pro{
+   color: var(--c-brand);
+}
+.kotak{
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(93.81deg, #62605E 19.88%, rgba(98, 96, 94, 0) 98.52%);
+}
+.ami{
+   color: var(--c-brand);
+}
+@media (max-width :767px){
+   img.tengah{
+      padding-top: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   img.kiri{
+      margin-left: -50px;
+   }
+   .container3{
+      position:absolute;
+      box-sizing: border-box;
+    width: 350px;
+    height: 380px;
+    border: 5px solid #0BA824;
+    filter: blur(3px);
+    margin-left: 80px;
+
+   }
+   .container4{
+      position:absolute;
+      box-sizing: border-box;
+    width: 250px;
+    height: 240px;
+    border: 5px solid #0BA824;
+    filter: blur(2px);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: -10px;
+    
+   }
+   .kotak2{
+      margin-left: 50px;
+   
+   }
+}
+.why{
+   color: var(--c-brand);
+}
+.me{
+   color: var(--c-brand);
+}
+.kotak2{
+   margin-top: 200px;
+}
+.fot{
+   margin-top: 100px;
+   
+}
+.WA{
+   color: var(--c-body);
+}
+@media(max-width :576px ) {
+   .pos{
+      margin-top: 20px;
+   }
+   .container3{
+      position:absolute;
+      box-sizing: border-box;
+    width: 280px;
+    height: 380px;
+    border: 5px solid #0BA824;
+    filter: blur(3px);
+    margin-left: 80px;
+
+   }
+   .container4{
+      position:absolute;
+      box-sizing: border-box;
+    width: 190px;
+    height: 290px;
+    border: 5px solid #0BA824;
+    filter: blur(2px);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: -5px;
+   }
+}
